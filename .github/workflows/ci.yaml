@@ -30,9 +30,3 @@ jobs:
       - name: Lint
         if: success()
         run: npm run lint
-
-      # - name: Build and test
-      #   run: |
-      #     npm run build
-      #     npm run typecheck
-      #     npm run lint
